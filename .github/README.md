@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-networkflowmonitor`](https://www.npmjs.com/package/@aws-sdk/client-networkflowmonitor/v/3.1114.0).
+[`@aws-sdk/client-networkflowmonitor`](https://www.npmjs.com/package/@aws-sdk/client-networkflowmonitor/v/3.1115.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-networkflowmonitor - [https://cloud-sdk-builds.github.io/?sdk=client-networkflowmonitor](https://cloud-sdk-builds.github.io/?sdk=client-networkflowmonitor)
-- @aws-sdk/client-networkflowmonitor v3.1114.0 - [https://cloud-sdk-builds.github.io/?sdk=client-networkflowmonitor&version=3.1114.0](https://cloud-sdk-builds.github.io/?sdk=client-networkflowmonitor&version=3.1114.0)
+- @aws-sdk/client-networkflowmonitor v3.1115.0 - [https://cloud-sdk-builds.github.io/?sdk=client-networkflowmonitor&version=3.1115.0](https://cloud-sdk-builds.github.io/?sdk=client-networkflowmonitor&version=3.1115.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1114.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1115.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-4PvOzlNpiTi1KweL2EwHjIAcyb0yZKgrM429NrQjUpPacFTSPYRJrkMmN82mAeV8
+sha384-H21/muHMFeO6jtkPimCK6zIfKtG9YFtNWefqLV/6oXe4QmN8/oEpN1KIKTJ6iR+7
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-networkflowmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1114.0/index.min.mjs"
+            "@aws-sdk/client-networkflowmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1115.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1114.0/index.min.mjs": "sha384-4PvOzlNpiTi1KweL2EwHjIAcyb0yZKgrM429NrQjUpPacFTSPYRJrkMmN82mAeV8"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1115.0/index.min.mjs": "sha384-H21/muHMFeO6jtkPimCK6zIfKtG9YFtNWefqLV/6oXe4QmN8/oEpN1KIKTJ6iR+7"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-networkflowmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1114.0/index.min.mjs"
+                        "@aws-sdk/client-networkflowmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1115.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1114.0/index.min.mjs": "sha384-4PvOzlNpiTi1KweL2EwHjIAcyb0yZKgrM429NrQjUpPacFTSPYRJrkMmN82mAeV8"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkflowmonitor@3.1115.0/index.min.mjs": "sha384-H21/muHMFeO6jtkPimCK6zIfKtG9YFtNWefqLV/6oXe4QmN8/oEpN1KIKTJ6iR+7"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1114.0`)
+* Always pin to a specific version (`@3.1115.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-networkflowmonitor/blob/refs/tags/3.1114.0/LICENSE
+https://github.com/cloud-sdk-builds/client-networkflowmonitor/blob/refs/tags/3.1115.0/LICENSE
 ```
 
 ---
